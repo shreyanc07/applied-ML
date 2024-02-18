@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/CMI/Applied%20ML/applied-ML/ASS_2/src/mlruns/235275653375214283/addadf8c5b8249d3b54ba553c9f8386f/artifacts
+end_time: 1708271176156
+entry_point_name: ''
+experiment_id: '235275653375214283'
+lifecycle_stage: active
+run_id: addadf8c5b8249d3b54ba553c9f8386f
+run_name: logistic_regression
+run_uuid: addadf8c5b8249d3b54ba553c9f8386f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708271170232
+status: 3
+tags: []
+user_id: rickc

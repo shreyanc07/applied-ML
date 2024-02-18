@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/CMI/Applied%20ML/applied-ML/ASS_2/src/mlruns/235275653375214283/d22e74e831e544eaadd1c3f48763aa09/artifacts
+end_time: 1708271857347
+entry_point_name: ''
+experiment_id: '235275653375214283'
+lifecycle_stage: active
+run_id: d22e74e831e544eaadd1c3f48763aa09
+run_name: lightgbm
+run_uuid: d22e74e831e544eaadd1c3f48763aa09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708271851639
+status: 3
+tags: []
+user_id: rickc

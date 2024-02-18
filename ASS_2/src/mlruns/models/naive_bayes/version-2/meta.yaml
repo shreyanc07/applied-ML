@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1708271289123
+current_stage: None
+description: null
+last_updated_timestamp: 1708271289123
+name: naive_bayes
+run_id: 36d01f4c2af0438e88039a6586ee6e05
+run_link: null
+source: runs:/36d01f4c2af0438e88039a6586ee6e05/model_naive_bayes
+status: READY
+status_message: null
+storage_location: runs:/36d01f4c2af0438e88039a6586ee6e05/model_naive_bayes
+user_id: null
+version: 2

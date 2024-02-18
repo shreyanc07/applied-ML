@@ -1,7 +1,5 @@
----
-title: "ML Email Spam Classification"
-output: github_document
----
+
+
 # Email Spam Classification
 
 This project aims to build a prototype for email spam classification using machine learning. It includes data version control with DVC, model version control, and experiment tracking with MLflow.

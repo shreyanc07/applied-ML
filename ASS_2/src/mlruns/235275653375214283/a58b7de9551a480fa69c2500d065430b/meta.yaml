@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/CMI/Applied%20ML/applied-ML/ASS_2/src/mlruns/235275653375214283/a58b7de9551a480fa69c2500d065430b/artifacts
+end_time: 1708270834380
+entry_point_name: ''
+experiment_id: '235275653375214283'
+lifecycle_stage: active
+run_id: a58b7de9551a480fa69c2500d065430b
+run_name: naive_bayes
+run_uuid: a58b7de9551a480fa69c2500d065430b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708270832061
+status: 3
+tags: []
+user_id: rickc

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1708271294893
+current_stage: None
+description: null
+last_updated_timestamp: 1708271294893
+name: lightgbm
+run_id: cb0f8ee3165d4714a75335f13255137f
+run_link: null
+source: runs:/cb0f8ee3165d4714a75335f13255137f/model_lightgbm
+status: READY
+status_message: null
+storage_location: runs:/cb0f8ee3165d4714a75335f13255137f/model_lightgbm
+user_id: null
+version: 2
