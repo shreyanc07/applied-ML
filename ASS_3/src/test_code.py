@@ -77,12 +77,6 @@ class TestScoreFunction(unittest.TestCase):
 
 
 # INTEGRATION TEST
-
-import requests
-import subprocess
-import time
-import unittest
-
 class TestFlaskIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -112,35 +106,3 @@ class TestFlaskIntegration(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-# import subprocess
-# import time
-# import unittest
-# import requests
-
-# class TestFlaskIntegration(unittest.TestCase):
-#     @classmethod
-#     def setUpClass(cls):
-#         # Start Flask app as a subprocess
-#         cls.flask_process = subprocess.Popen(["python", "app.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#         time.sleep(10)  # Adjust this sleep time as needed
-
-#     def test_flask(self):
-#         try:
-#             # Test the response from the localhost endpoint
-#             data = {'text': 'Sample text to score.'}
-#             response = requests.post('http://127.0.0.1:5000/score', json=data)
-#             self.assertEqual(response.status_code, 200)
-#             self.assertIn('prediction', response.json())
-#             self.assertIn('propensity', response.json())
-#         except requests.exceptions.ConnectionError as e:
-#             self.fail(f"Connection to Flask app failed: {e}")
-
-#     @classmethod
-#     def tearDownClass(cls):
-#         # Terminate the Flask process
-#         cls.flask_process.terminate()
-#         cls.flask_process.wait()
-
-# if __name__ == '__main__':
-#     unittest.main()
