@@ -113,11 +113,15 @@ class TestDocker(unittest.TestCase):
         cls.container_id = subprocess.check_output(
             ["docker", "run", "-d", "-p", "5000:5000", "assignment_4"]
         ).decode("utf-8").strip()
+        # Load input texts from the CSV file
+        cls.test_df = pd.read_csv(r"C:\CMI\Applied ML\applied-ML\ASS_4\data\test.csv")
         time.sleep(5)  # Wait for the server to start
 
     def test_docker(self):
+        r = random.randint(0, len(self.test_df) - 1)
+        text = self.test_df.iat[r, 0]
         # Test the /score endpoint
-        test_data = {'text': 'sample text'}
+        test_data = {'text': text}
         response = requests.post('http://127.0.0.1:5000/score', json=test_data)
         self.assertEqual(response.status_code, 200)
         # You may want to add more assertions here based on your expected response
