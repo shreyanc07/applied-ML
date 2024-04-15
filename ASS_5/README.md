@@ -6,6 +6,10 @@ This repository contains the Jupyter notebooks for a two-part assignment on tran
 
 ## Part 1: Image Classification with CNNs
 
+#### LINK FOR GOOGLE COLAB NOTEBOOK
+
+[Open the Colab Notebook](https://colab.research.google.com/drive/1qyV8xf9r_2dAn6PBi7At9MdwryfTFVgK?usp=sharing)
+
 ### Description
 
 Part 1 utilizes a pre-trained convolutional neural network to classify images of ducks and chickens. About 100 images for each class were used, with the model fine-tuned to distinguish between these two bird types.
@@ -18,6 +22,10 @@ Part 1 utilizes a pre-trained convolutional neural network to classify images of
 - Evaluate the model using a classification report to understand its performance metrics.
 
 ## Part 2: Text Classification with Transformers
+
+#### LINK FOR GOOGLE COLAB NOTEBOOK
+
+[Open the Colab Notebook](https://colab.research.google.com/drive/1zV-USI1U2fyeJycM1ea1Gsv_8i0C5sOd?usp=sharing)
 
 ### Description
 
