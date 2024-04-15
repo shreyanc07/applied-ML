@@ -41,5 +41,5 @@ Part 2 focuses on sentiment analysis using a pre-trained transformer model. The 
 Clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/shreyanc07/applied-ML.git
 ```
